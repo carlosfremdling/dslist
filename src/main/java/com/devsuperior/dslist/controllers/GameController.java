@@ -14,7 +14,7 @@ import com.devsuperior.dslist.services.GameService;
 @RequestMapping(value = "/games")
 public class GameController {
 	
-	// Injetado uma instância do GameService no GameController
+	// Injetando uma instância do GameService no GameController
 	@Autowired
 	private GameService gameService;
 	
